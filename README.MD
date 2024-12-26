@@ -6,3 +6,12 @@
 6.Topological sort using DFS
 7.khans algorithms (topological shorts)
 8.Detect cycle in directed graph using DFS and khans algorithms
+
+9.Bipartite graph
+
+
+
+to remove the .exe file from github
+git rm --cached *.exe
+git commit -m "Removed .exe files from tracking and updated .gitignore"
+git push
