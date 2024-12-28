@@ -6,7 +6,7 @@
 
 4.DFS
 
-5. Detect cycle in undirected graph using BFS and DFS
+5.Detect cycle in undirected graph using BFS and DFS
 
 6.Topological sort using DFS
 
@@ -21,6 +21,9 @@
 11.question: Find the number of Island
 
 12.question: Replace O with X
+
+13.Prerequisite Task
+
 
 to remove the .exe file from github
 git rm --cached *.exe
