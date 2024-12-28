@@ -24,6 +24,8 @@
 
 13.Prerequisite Task
 
+14.Alien Dictionary
+
 
 to remove the .exe file from github
 git rm --cached *.exe
