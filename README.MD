@@ -34,6 +34,9 @@
 
 18.Shortest Path in Directed weighted Acyclic Graph
 
+19.Dijkstra's Algorithm
+
+
 to remove the .exe file from github
 git rm --cached *.exe
 git commit -m "Removed .exe files from tracking and updated .gitignore"
