@@ -38,7 +38,7 @@
 
 20.Dijkstra's Algorithm methode 2 (prefer for sparse(no of edge is very low) graph. Priority queue )
 
-
+21.Dijkstra's Algorithm methode 2 on directed graph
 
 
 
