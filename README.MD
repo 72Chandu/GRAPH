@@ -34,7 +34,12 @@
 
 18.Shortest Path in Directed weighted Acyclic Graph
 
-19.Dijkstra's Algorithm
+19.Dijkstra's Algorithm (prefer for dense(no of edge is high) graph )
+
+20.Dijkstra's Algorithm methode 2 (prefer for sparse(no of edge is very low) graph. Priority queue )
+
+
+
 
 
 to remove the .exe file from github
