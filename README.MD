@@ -42,6 +42,8 @@
 
 22.Shortest path in weighted undirected graph(google map backend)
 
+23.Bellman-Ford Algorithm |distance from the source
+
 to remove the .exe file from github
 git rm --cached *.exe
 git commit -m "Removed .exe files from tracking and updated .gitignore"
