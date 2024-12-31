@@ -44,6 +44,8 @@
 
 23.Bellman-Ford Algorithm |distance from the source
 
+24.Floyd Warshall Algorithm
+
 to remove the .exe file from github
 git rm --cached *.exe
 git commit -m "Removed .exe files from tracking and updated .gitignore"
