@@ -48,6 +48,8 @@
 
 25.Shortest source to destination path
 
+26.Knight Walk
+
 
 to remove the .exe file from github
 git rm --cached *.exe
