@@ -52,6 +52,8 @@
 
 27.Find wether path Exist
 
+28.Euler Path  or Euler circuit 
+
 to remove the .exe file from github
 git rm --cached *.exe
 git commit -m "Removed .exe files from tracking and updated .gitignore"
