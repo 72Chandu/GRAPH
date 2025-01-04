@@ -52,7 +52,9 @@
 
 27.Find wether path Exist
 
-28.Euler Path  or Euler circuit 
+28.Euler Path  or Euler circuit
+
+29.Circle of String
 
 to remove the .exe file from github
 git rm --cached *.exe
