@@ -56,6 +56,8 @@
 
 29.Circle of String
 
+30.Minimum Spanning Tree | Prims Algorithm
+
 to remove the .exe file from github
 git rm --cached *.exe
 git commit -m "Removed .exe files from tracking and updated .gitignore"
