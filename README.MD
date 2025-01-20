@@ -58,6 +58,8 @@
 
 30.Minimum Spanning Tree | Prims Algorithm
 
+31.Minimum Spanning Tree |Kruskal Algorithm
+
 to remove the .exe file from github
 git rm --cached *.exe
 git commit -m "Removed .exe files from tracking and updated .gitignore"

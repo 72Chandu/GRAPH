@@ -21,7 +21,7 @@ ex:
 4->{3,9},{5,10}
 5->{6,2},{4,10},{3,14}
 6->{8,6},{7,1}
-7->{1,11},{8,7},{0,8}
+7->{1,11},{8,7},{0,8},{6,1}
 8->{7,7},{2,2},{6,6}
 
 
@@ -78,7 +78,6 @@ edge b/w index(i) and parent[i]
 */
 #include <bits/stdc++.h>
 using namespace std;
-
 int main() {
     vector<vector<pair<int, int>>> AdjList = {
         {{1, 4}, {7, 8}},           // Neighbors of node 0
@@ -88,15 +87,14 @@ int main() {
         {{3, 9}, {5, 10}},          // Neighbors of node 4
         {{6, 2}, {4, 10}, {3, 14}}, // Neighbors of node 5
         {{8, 6}, {7, 1}},           // Neighbors of node 6
-        {{1, 11}, {8, 7}, {0, 8}},  // Neighbors of node 7
+        {{1, 11}, {8, 7}, {0, 8},{6,1}},  // Neighbors of node 7
         {{7, 7}, {2, 2}, {6, 6}}    // Neighbors of node 8
     };
     int v = AdjList.size();
     priority_queue<pair<int, pair<int, int>>, vector<pair<int, pair<int, int>>>, greater<pair<int, pair<int, int>>>> pq;
-    vector<bool> IsMST(v, false);
-    vector<int> parent(v, -1);
+    vector<bool> IsMST(v,0);
+    vector<int> parent(v);
     int cost = 0;
-    // Start with node 0
     pq.push({0, {0, -1}}); // {weight, {current_node, parent_node}}
     while (!pq.empty()) {
         int wt = pq.top().first;         // Weight of the edge
@@ -105,7 +103,7 @@ int main() {
         pq.pop();
         if (!IsMST[node]) {
             // Mark the node as included in MST
-            IsMST[node] = true;
+            IsMST[node] =1;
             cost += wt;
             parent[node] = par;
             // Traverse neighbors
